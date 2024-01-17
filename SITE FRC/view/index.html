@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>CodePen - Navbar Pure CSS</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modal.css">
+  </head>
+  <body class="fullscreen">
+  <!-- partial:index.partial.html -->
+  <div id="nav-bar">
+    <input id="nav-toggle" type="checkbox"/>
+    <div id="nav-header"><a id="nav-title" href="#"> AliançaRookie</a>
+      <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
+      <hr/>    
+    </div>
+    <div class="sc">
+    <div id="nav-content">
+      <div class="nav-button"><i class="fas fa-palette"></i><span>Your Work</span></div>
+      <div class="nav-button"><i class="fas fa-images"></i><span>Assets</span></div>
+      <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Pinned Items</span></div>
+      <div class="nav-button"><i class="fas fa-heart"></i><span>Following</span></div>
+      <div class="nav-button"><i class="fas fa-chart-line"></i><span>Trending</span></div>
+      <div class="nav-button"><i class="fas fa-fire"></i><span>Challenges</span></div>
+      <div class="nav-button"><i class="fas fa-magic"></i><span>Spark</span></div>
+      <div class="nav-button"><i class="fas fa-gem"></i><span>Codepen Pro</span></div>
+      <div id="nav-content-highlight"></div>
+       
+      </div>
+
+      <div class="conteudo-central">
+
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#news">Cadastrar</a>
+          <a id="btn-modal" class="login-button" href="#" data-target="#login" data-toggle="modal">Login</a>
+          <a href="#about">Filtros</a>
+        </div>
+
+
+        <section class="inicio">
+          <h4>Thee Rookie Alliance</h4>
+
+        </section>
+                
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+          <div class="modal-dialog">
+          <div class="loginmodal-container">
+            <h1>Login to Your Account</h1><br>
+          <form action="../data/validacao-login.php" method="post">
+              <input type="text" name="login" placeholder="Username">
+              <input type="password" name="password" placeholder="Password">
+              <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+            </form>
+            
+            <div class="login-help">
+            <a href="#">Register</a> - <a href="#">Forgot Password</a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+       
+
+        </hr>
+
+
+
+      </div>
+
+    </div>
+    <input id="nav-footer-toggle" type="checkbox"/>
+    <div id="nav-footer">
+      <div id="nav-footer-heading">
+        <div id="nav-footer-avatar"><img src="https://gravatar.com/avatar/4474ca42d303761c2901fa819c4f2547"/></div>
+        <div id="nav-footer-titlebox"><a id="nav-footer-title" href="https://codepen.io/uahnbu/pens/public" target="_blank">uahnbu</a><span id="nav-footer-subtitle">Admin</span></div>
+        <label for="nav-footer-toggle"><i class="fas fa-caret-up"></i></label>
+      </div>
+      <div id="nav-footer-content">
+        <Lorem>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Lorem>
+      </div>
+    </div>
+    
+  </div>
+
+
+ 
+  <!-- partial -->
+    
+  </body>
+</html>
+
+<script>
+  
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtenha referências para o botão e a div
+    var botaoModal = document.getElementById("btn-modal");
+    var loginModal = document.getElementById("login-modal");
+
+    botaoModal.addEventListener("click", function() {
+        // Altere a propriedade 'display' da div
+        // Você pode usar "none" para esconder a div e "block" para mostrá-la, por exemplo
+        if (loginModal.style.display === "none" || loginModal.style.display === "") {
+          loginModal.style.display = "block";
+        } else {
+          loginModal.style.display = "none";
+        }
+    });
+});
+
+</script>
