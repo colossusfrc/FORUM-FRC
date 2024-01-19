@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-  <html lang="en" >
+  <html lang="pt-br" >
   <head>
     <meta charset="UTF-8">
-    <title>CodePen - Navbar Pure CSS</title>
+    <title>Aliança Rookie</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'><link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/login-modal.css">
   </head>
   <body class="fullscreen">
   <!-- partial:index.partial.html -->
@@ -31,32 +31,54 @@
 
       <div class="conteudo-central">
 
+
+        <div >
+            
+         <img src="logotype-removebg-preview.png" alt="" class="img">
+         
+        </div>
+      <hr/>
+
         <div class="topnav">
           <a class="active" href="#home">Home</a>
           <a id="cdnModal" class="login-button" href="#" data-target="#cadastro" data-toggle="valid">Cadastrar</a>
           <a id="btn-modal" class="login-button" href="#" data-target="#login" data-toggle="modal">Login</a>
           <a href="#about">Filtros</a>
+          
+       
         </div>
 
 
         <section class="inicio">
-          <h4>Thee Rookie Alliance</h4>
+          <h4>The Rookie Alliance</h4>
 
         </section>
                 
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
           <div class="modal-dialog">
           <div class="loginmodal-container">
-            <h1>Login to Your Account</h1><br>
+            
           <form action="../data/validacao-login.php" method="post">
+
+          <div clas="login-box">
+            
+              <h1>Bem- vindo de volta!</h1><br>
+              <label for="username">Usuário</label>
               <input type="text" name="login" placeholder="Username">
+              
               <input type="password" name="password" placeholder="Password">
               <input type="submit" name="logar" class="login loginmodal-submit" value="Login">
+
+              <div class="login-help">
+                <a href="#" class="registro">Registrar-se</a> 
+                <a href="#" >Esqueceu a senha?</a>
+                </div>
+
+              </div>
+
             </form>
 
-            <div class="login-help">
-            <a href="#">Register</a> - <a href="#">Forgot Password</a>
-            </div>
+   
           </div>
         </div>
         </div>
@@ -89,7 +111,7 @@
     <div id="nav-footer">
       <div id="nav-footer-heading">
         <div id="nav-footer-avatar"><img src="https://gravatar.com/avatar/4474ca42d303761c2901fa819c4f2547"/></div>
-        <div id="nav-footer-titlebox"><a id="nav-footer-title" href="https://codepen.io/uahnbu/pens/public" target="_blank">uahnbu</a><span id="nav-footer-subtitle">Admin</span></div>
+        <div id="nav-footer-titlebox"><a id="nav-footer-title" href="https://codepen.io/uahnbu/pens/public" target="_blank">Pablo</a><span id="nav-footer-subtitle">Admin</span></div>
         <label for="nav-footer-toggle"><i class="fas fa-caret-up"></i></label>
       </div>
       <div id="nav-footer-content">

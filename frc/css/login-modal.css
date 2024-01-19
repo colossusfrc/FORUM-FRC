@@ -1,0 +1,72 @@
+.loginmodal-container{
+    width: 50vw;
+    height: 50vh;
+    
+}
+
+.modal-dialog{
+    margin-left: 23vw;
+    margin-top: 5vh;
+}
+
+form {
+    height: 580px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 25px rgba(8, 7, 16, 0.2);
+    padding: 50px 35px;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 2vh;
+    margin-left: -5vw;
+  }
+
+  form * {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+
+  form h1{
+     margin-left: 2vw;
+  }
+
+  form p{
+    margin-top: -1vw;
+  }
+
+  input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color:  rgba(230, 221, 235, 0.436);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 65px;
+    font-size: 14px;
+    font-weight: 300;
+
+    
+  }
+
+  .registro{
+    margin-right: 6vw;
+ }
+
+ .login-box{
+    height: 240px;
+    margin-top: 12vh;
+ }
+
+ .login-help{
+    margin-top: 1vw;
+    margin-left: 1vw;
+ }

@@ -10,11 +10,20 @@
 
   .conteudo-central {
     margin-left: 15px;
+    margin-top: -25px;
   }
 
   .inicio h4 {
     text-align: center;
+
     }
+    
+    img{
+      width: 100px;
+      margin-left: 36vw;
+      margin-bottom: 1px;
+    }
+
   .sc {
     display: flex;
   }
@@ -23,6 +32,7 @@
     margin: 0;
     background: var(--background);
   }
+
   
   #nav-toggle:checked ~ #nav-header {
     width: calc(var(--navbar-width-min) - 16px);
