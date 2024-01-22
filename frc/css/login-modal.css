@@ -4,13 +4,20 @@
     
 }
 
-
-
 .modal-dialog{
     margin-left: 23vw;
     margin-top: 5vh;
 }
 
+.btn-close {
+  cursor: pointer;
+  background: none;
+  color: rgb(193, 184, 184);
+  margin-left: auto;
+
+} /*botão de fechar*/
+
+/*login*/
 form {
 
     background-color: rgba(255, 255, 255, 0.13);
@@ -22,29 +29,37 @@ form {
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
-    padding: 50px 35px;
+    padding: 5px 35px;
     margin-bottom: 8vh;
     padding-bottom: 10vh;
     margin-left: 7%;
    
   }
+  
 
   form * {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
- 
     margin-left: 10px;
   }
 
-  form h1{
-     
-     font-size: 23px;
+  .title_login{
+    margin-left: -5%;
   }
 
-  form p{
-    margin-top: -1vw;
+  form h1{
+     font-size: 17px;
+     text-align: center;
+   
+  }
+
+  form h2{
+     font-size: 12px;
+     margin: 5% 0% 12% auto;
+     color: rgb(101, 101, 101);
+     text-align: center;
   }
 
   .senha1{
@@ -68,44 +83,48 @@ form {
   }
 
   .loginmodal-submit{
-    margin-top: 3vh;
-    height: 40px;
-    margin-left: 5%;
+    height: 34px;
+    align-items: center;
+    width: 35%;
+    margin: 10% auto;
+    background-color: rgb(7, 141, 67);
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
   }
 
+  .loginmodal-submit:hover{
+    background-color: rgb(8, 118, 57);
+    box-shadow: rgba(4, 57, 9, 0.322) 0px 2px 8px 0px;
+  }
  
   
   .login-box{
     margin-left: 20px;
   }
 
- form a{
+ form a{ /*REGISTRA-SE E ESUQECEU A SENHA*/
 
     margin-right: 2.5vw;
-    font-size: 14px;
+    font-size: 12.5px;
  }
 
 .login-help{
-  margin-top: 1vh;
+  margin-top: 8%;
 }
 
 
-.btn-close {
-  cursor: pointer;
-  background: none;
-  color: rgb(193, 184, 184);
-  margin-top: -10px;
-
+/*cadastro*/
+.modal-dialog-c {
+  margin-left: 15vw;
+  margin-top: 5vh;
 }
-.cadastro {
-
-   
+  .cadastro {
     background-color: rgba(255, 255, 255, 0.13);
     color: black;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 47%;
-    left:60%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -116,3 +135,44 @@ form {
     margin-left: 7%;
    
   }
+
+  .cadastro * {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+ 
+    margin-left: 10px;
+  }
+
+  .cadastro h1{
+     
+     font-size: 23px;
+  }
+
+  input {
+    display: block;
+    height: 30px;
+    width: 80%;
+    background-color:  rgba(230, 221, 235, 0.436);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 5%;
+    font-size: 14px;
+    margin-bottom: 6%;
+    margin-left: 10px;
+
+
+  }
+
+  .loginmodal-container{
+    margin-left: 20px;
+  }
+
+.btn-close {
+  cursor: pointer;
+  background: none;
+  color: rgb(193, 184, 184);
+  margin-top: -10px;
+
+}
