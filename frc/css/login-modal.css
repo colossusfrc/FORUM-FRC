@@ -1,101 +1,112 @@
-.loginmodal-container{
-    width: 50vw;
-    height: 50vh;
-    
+*{
+  margin: 0%;
+  padding: 0%;
 }
+
 
 .modal-dialog{
     margin-left: 23vw;
     margin-top: 5vh;
 }
 
-.btn-close {
+
+.btn-close {  /*botão de fechar*/
   cursor: pointer;
   background: none;
   color: rgb(193, 184, 184);
   margin-left: auto;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  width: 52%;
+  margin-top: 6%;
+  margin-left: -27%;
+}
 
-} /*botão de fechar*/
 
 /*login*/
 form {
-
     background-color: rgba(255, 255, 255, 0.13);
-    color: black;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 62%;
-    width: 33%;
+    width: 200pt;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
-    padding: 5px 35px;
+    padding: 5px 30px;
     margin-bottom: 8vh;
     padding-bottom: 10vh;
     margin-left:25%;
-   
   }
-  
 
   form * {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.5px;
     outline: none;
     border: none;
     top: 55%;
-    width: 52%;
-    margin-left: 30%;
   }
 
-  .title_login{
-    margin-left: 5%;
+  .login-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  form h1{
-     font-size: 17px;
-     text-align: center;
-     margin-left: 6%;
-   
+  h1{
+     font-size: 18px;
   }
 
-  form h2{
-     font-size: 12px;
-     margin: 5% 0% 12% auto;
-     color: rgb(101, 101, 101);
-     text-align: center;
+
+  .input-login{ /*BLOCO DOS INPUT*/
+    margin-top: 15pt;
+    margin-bottom: 20pt;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .senha1{
-    margin-top: 5%;
-  }
- 
-
-  input {
+  .email-login { /*INPUT*/
     display: block;
-    height: 30px;
-    width: 80%;
+    height: 40px;
     background-color:  rgba(230, 221, 235, 0.436);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 20px;
+    border-radius: 4px;
+    padding: 0 15px;
     font-size: 14px;
-    margin-bottom: 6%;
-    margin-left: 10px;
-
-    
+    letter-spacing: 0.5px;
   }
+
+  .senha-login { /*INPUT*/
+    display: block;
+    height: 40px;
+    background-color:  rgba(230, 221, 235, 0.436);
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-top: 8%;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .senha-login:hover{
+    box-shadow: rgba(4, 57, 9, 0.322) 0px 2px 8px 0px;
+  }
+  .email-login:hover{
+    box-shadow: rgba(4, 57, 9, 0.322) 0px 2px 8px 0px;
+  }
+   
 
   .loginmodal-submit{
+    margin: 0%;
     height: 34px;
     align-items: center;
     width: 35%;
-    margin: 10% auto;
     background-color: rgb(7, 141, 67);
     color: white;
     font-weight: bold;
     font-size: 9pt;
+    border-radius: 3px;
   }
 
   .loginmodal-submit:hover{
@@ -103,19 +114,18 @@ form {
     box-shadow: rgba(4, 57, 9, 0.322) 0px 2px 8px 0px;
   }
  
-  
-  .login-box{
-    margin-left: 20px;
-  }
 
- form a{ /*REGISTRA-SE E ESUQECEU A SENHA*/
-
-    margin-right: 2.5vw;
-    font-size: 12.5px;
- }
-
+.login-help *{
+  color: rgb(86, 86, 94);
+  font-size: 12.5px;
+  margin-top: 10pt;
+}
 .login-help{
-  margin-top: 8%;
+  margin-top: 15pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -156,34 +166,5 @@ form {
   .cadastro h1{
     font-size: 16px;
     width: max-content;
-    
-    
   }
 
-  input {
-    display: block;
-    height: 30px;
-    width: 80%;
-    background-color:  rgba(230, 221, 235, 0.436);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 5%;
-    font-size: 14px;
-    margin-bottom: 6%;
-    margin-left: 10px;
-
-
-  }
-
-  .loginmodal-container{
-    margin-left: 20px;
-  }
-
-.btn-close {
-  cursor: pointer;
-  background: none;
-  color: rgb(193, 184, 184);
-  margin-top: 6%;
-  margin-left: -27%;
-
-}
