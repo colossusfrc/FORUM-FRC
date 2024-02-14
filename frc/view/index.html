@@ -84,80 +84,12 @@
        
       </div>
                 
-        <div class="modal fade" id="login-modal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
-          <div class="modal-dialog">
-          <div class="loginmodal-container">
-            
-          <form action="../data/validacao-login.php" method="post">
-            <button id="btn-close2" type="button" class="btn-close" aria-label="Close">X</button>
 
-          <div class="login-box">
-            
-            <div class="title_login">
-              <h1>FAZER LOGIN</h1>
-             
-            </div>
-              
-             <!-- <label for="username">Login</label>-->
-              <input type="text" name="login" placeholder="Digite seu nome de usuário">
-              
-              <!-- <label for="password">Senha</label>-->
-              <input type="password" name="password" placeholder="Digite sua senha" class="senha1">
-
-              <input type="submit" name="logar" class="loginmodal-submit" value="ENTRAR">
-
-              <div class="login-help">
-                <a href="#" class="registro">Registrar-se</a> 
-                <a href="#" >Esqueceu a senha?</a>
-                </div>
-
-              </div>
-
-            </form>
-
-   
-          </div>
-        </div>
-        </div>
-
-          <!--cadastro-->
-
-        <div class="modal-cadastro" id="cadastro-modal" style="display: none;">
-          <div class="modal-dialog-c">
-            <div class="loginmodal-container">
-
-            <form action="validacao-cadastro.php" method="post" >
-              <button id="btn-close" type="button" class="btn-close" aria-label="Close">X</button></br>
-              
-            <h1> Bem-vindo! </h1>
-
-              <label for="login">Email</label>
-              <input type="text" id="login2" name="login2" class="email" required placeholder="ex: aliancarookie@gmail.com">
-
-              <label for="login">Nome</label>
-              <input type="text" id="login2" name="login2" required placeholder="Nome de Usuário">
-  
-              <label for="senha">Senha</label>
-              <input type="password" id="senha2" name="senha2" required placeholder="Digite sua senha">
-  
-              <label for="senha">Confirme sua senha</label>
-              <input type="password" id="senha2" name="senha3" required>
-  
-              <label for="equipe">Número da Equipe</label>
-              <input type="number" id="equipe" name="equipe2" required>
-  
-              <button type="submit">Cadastrar</button>
-  
-            </div>
-          </div>
-          </div>
-          
-        </form>
-          
         </div>
      
 
-
+        
+       
 
       
 
@@ -347,6 +279,79 @@
   </div>
  
   
+  <div class="modal fade" id="login-modal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog">
+    <div class="loginmodal-container">
+      
+    <form action="../data/validacao-login.php" method="post">
+      <button id="btn-close2" type="button" class="btn-close" aria-label="Close">X</button>
+
+    <div class="login-box">
+      
+      <div class="title_login">
+        <h1>FAZER LOGIN</h1>
+       
+      </div>
+        
+       <!-- <label for="username">Login</label>-->
+        <input type="text" name="login" placeholder="Digite seu nome de usuário">
+        
+        <!-- <label for="password">Senha</label>-->
+        <input type="password" name="password" placeholder="Digite sua senha" class="senha1">
+
+        <input type="submit" name="logar" class="loginmodal-submit" value="ENTRAR">
+
+        <div class="login-help">
+          <a href="#" class="registro">Registrar-se</a> 
+          <a href="#" >Esqueceu a senha?</a>
+          </div>
+
+        </div>
+
+      </form>
+
+
+    </div>
+  </div>
+  </div>
+
+    <!--cadastro-->
+    <div class="modal-fade" id="cadastro-modal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+      <div class="modal-dialog">
+      <div class="loginmodal-container">
+
+      <form action="../data/validacao-login.php" method="post" class="cadastro">
+        <button id="btn-close" type="button" class="btn-close" aria-label="Close">X</button>
+  
+      <div class="login-box">
+        
+        <div class="title_login">
+          <h1>Cadastre-se</h1>
+         
+        </div>
+          
+         <!-- <label for="username">Login</label>-->
+          <input type="text" name="login" placeholder="Digite seu nome de usuário">
+          
+          <!-- <label for="password">Senha</label>-->
+          <input type="password" name="password" placeholder="Digite sua senha" class="senha1">
+  
+          <input type="submit" name="logar" class="loginmodal-submit" value="ENTRAR">
+  
+          <div class="login-help">
+            <a href="#" class="registro">Registrar-se</a> 
+            <a href="#" >Esqueceu a senha?</a>
+            </div>
+  
+          </div>
+  
+        </form>
+  
+  
+      </div>
+    </div>
+    </div>
+
     
   </body>
   <div class="pg-footer">
@@ -427,6 +432,7 @@
         if (loginModal.style.display === "none" || loginModal.style.display === "")  {
           loginModal.style.display = "block";
           cdsModal.style.display = "none";
+          conteudoInicial .style.display = "none";
           conteudo1.style.display = "none";
           conteudo2.style.display = "none";
           conteudo3.style.display = "none";
@@ -434,7 +440,10 @@
           conteudo5.style.display = "none";
           conteudo6.style.display = "none";
           conteudo7.style.display = "none";
-        } else {
+          section1.style.display = "none";
+          section2.style.display = "none";
+        } 
+        else {
           loginModal.style.display = "none";
           
         }
@@ -448,6 +457,7 @@
         if (cdsModal.style.display === "none" || cdsModal.style.display === "") {
           cdsModal.style.display = "block";
           loginModal.style.display = "none";
+          conteudoInicial.style.display = "none";
           conteudo1.style.display = "none";
           conteudo2.style.display = "none";
           conteudo3.style.display = "none";
@@ -456,6 +466,8 @@
           conteudo6.style.display = "none";
           conteudo7.style.display = "none";
           conteudo8.style.display = "none";
+          section1.style.display = "none";
+          section2.style.display = "none";
 
         } else {
           cdsModal.style.display = "none";

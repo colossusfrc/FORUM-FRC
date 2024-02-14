@@ -33,19 +33,20 @@ form {
     padding: 5px 35px;
     margin-bottom: 8vh;
     padding-bottom: 10vh;
-    margin-left:9%;
+    margin-left:25%;
    
   }
   
 
   form * {
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
     top: 55%;
     width: 52%;
-    margin-left:9%;
+    margin-left: 30%;
   }
 
   .title_login{
@@ -123,25 +124,27 @@ form {
   margin-left: 15vw;
   margin-top: 5vh;
 }
-  .cadastro {
-
-    background-color: rgba(255, 255, 255, 0.13);
-    color: black;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 62%;
-    width: 33%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
-    padding: 5px 35px;
-    margin-bottom: 8vh;
-    padding-bottom: 10vh;
   
-   
-  }
+  .cadastro
+{
 
+  background-color: rgba(255, 255, 255, 0.13);
+  color: black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 62%;
+  width: 30%;
+  height: 60%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
+  padding: 5px 35px;
+  margin-bottom: 8vh;
+  padding-bottom: 10vh;
+  margin-left:25%;
+ 
+}
   .cadastro * {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
@@ -151,8 +154,10 @@ form {
   }
 
   .cadastro h1{
-     
-     font-size: 23px;
+    font-size: 16px;
+    width: max-content;
+    
+    
   }
 
   input {
