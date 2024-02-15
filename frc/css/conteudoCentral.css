@@ -29,10 +29,7 @@
  
 }
 
-.objetivo-site{
-    margin-left: 20%;
-    
-}
+
 .sec-2{
        height: 120px;
        width: 33%;
@@ -45,4 +42,156 @@
        margin-top: 2%;
        margin-left: 27%;
        box-shadow: 0px 0px 0px 2px rgba(33,43,211,1), 8px 8px 0px 0px rgba(44,28,216,1);
+}
+
+.objetivo-site{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.objetivo-site h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 31%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+.objetivo-site p{
+    line-height: 1.5;
+}
+
+.forRookie{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.forRookie h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+
+.forRookie p{
+    line-height: 1.5;
+}
+
+.game-manual{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.game-manual h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.game-manual p{
+    line-height: 1.5;
+}
+
+.kitbot-montagem{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.kitbot-montagem h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.kitbot-montagem p{
+    line-height: 1.5;
+}
+
+
+.guia-chassi{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.guia-chassi h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.guia-chassi p{
+    line-height: 1.5;
+}
+
+.field-game{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.field-game h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.field-game p{
+    line-height: 1.5;
+}
+
+.guia-program{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.guia-program h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.guia-program p{
+    line-height: 1.5;
+}
+
+.about-first{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 3%;
+ 
+}
+
+.about-first h1{
+    font-size: 28px;
+    color: #2d0b90;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-first p{
+    line-height: 1.5;
 }
