@@ -10,7 +10,7 @@
 }
 
 
-.btn-close {  /*botão de fechar*/
+.btn-close {  /*BOTÕES DE FECHAR*/
   cursor: pointer;
   background: none;
   color: rgb(193, 184, 184);
@@ -22,16 +22,16 @@
 }
 
 
-/*login*/
-form {
-    background-color: rgba(255, 255, 255, 0.13);
+/*LOGIN*/
+.form-login {
+    background-color: rgb(255, 255, 255);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 62%;
     width: 200pt;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255);
     box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
     padding: 5px 30px;
     margin-bottom: 8vh;
@@ -61,7 +61,6 @@ form {
 
   .input-login{ /*BLOCO DOS INPUT*/
     margin-top: 15pt;
-    margin-bottom: 20pt;
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -98,7 +97,8 @@ form {
    
 
   .loginmodal-submit{
-    margin: 0%;
+    margin-top: 20pt;
+    margin-bottom: 5pt;
     height: 34px;
     align-items: center;
     width: 35%;
@@ -121,7 +121,6 @@ form {
   margin-top: 10pt;
 }
 .login-help{
-  margin-top: 15pt;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,42 +128,38 @@ form {
 }
 
 
-/*cadastro*/
-.modal-dialog-c {
-  margin-left: 15vw;
-  margin-top: 5vh;
-}
-  
-  .cadastro
-{
-
-  background-color: rgba(255, 255, 255, 0.13);
-  color: black;
+/*CADASTRO*/
+.form-cadastro {
+  background-color: rgb(255, 255, 255);
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 62%;
-  width: 30%;
-  height: 60%;
+  top: 74%;
+  width: 200pt;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 25px rgba(8, 7, 16, 0.2); 
-  padding: 5px 35px;
+  padding: 5px 30px;
   margin-bottom: 8vh;
   padding-bottom: 10vh;
   margin-left:25%;
- 
 }
-  .cadastro * {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
-    margin-left: 10px;
-  }
 
-  .cadastro h1{
-    font-size: 16px;
-    width: max-content;
-  }
+.box-input-cadastro{
+  margin-top: 10pt;
+}
+
+.input-cadastro{
+  display: block;
+  height: 40px;
+  background-color:  rgba(230, 221, 235, 0.436);
+  border-radius: 4px;
+  padding: 0 15px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+
 
